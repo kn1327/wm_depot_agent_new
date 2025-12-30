@@ -1,5 +1,5 @@
 # WM Depot CB% Agent Requirements
-# Using Walmart's PyPI mirror for internal packages
+# Streamlit Cloud compatible (no custom mirrors)
 
 # Core Dependencies
 streamlit==1.28.1
@@ -27,9 +27,3 @@ requests==2.31.0
 
 # Logging & Monitoring
 python-json-logger==2.0.7
-
-# Development (optional)
-pytest==7.4.2
-pytest-cov==4.1.0
-black==23.10.0
-flake8==6.1.0

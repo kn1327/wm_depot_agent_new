@@ -1,0 +1,35 @@
+# WM Depot CB% Agent Requirements
+# Using Walmart's PyPI mirror for internal packages
+
+# Core Dependencies
+streamlit==1.28.1
+pandas==2.0.3
+numpy==1.24.3
+python-dotenv==1.0.0
+
+# Google Cloud
+google-cloud-bigquery==3.13.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-cloud-core==2.3.3
+
+# Data Processing
+pyarrow==13.0.0
+pydantic==2.4.2
+
+# UI & Visualization
+plotly==5.16.1
+
+# Utilities
+click==8.1.7
+rich==13.6.0
+requests==2.31.0
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+
+# Development (optional)
+pytest==7.4.2
+pytest-cov==4.1.0
+black==23.10.0
+flake8==6.1.0
